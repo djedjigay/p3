@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@300;400&display=swap');
+
+@media only screen and (max-width: 800px) 
+{
+    body 
+    {
+        margin: 0px;
+        font-family: 'Roboto';
+    }
+   header
+   {
+       box-shadow: 0px 0px 0.5rem  gray;
+       position: relative;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+  .logo
+    {
+      display: block;
+      padding:13px;
+    }
+    
+  main .block1 
+   {
+       background-color: #EAEAEA;
+       display: flex;
+       justify-content: center;
+       
+       align-items: center;
+       gap: 1rem;
+   }
+   main .block1 i
+   {
+       margin-left:-40px;
+       font-size: 20px;
+   }
+   main .block1 h4
+   {
+       text-align: center;
+       font-size: 18px;
+   }
+
+
+   .block2
+   {
+    margin-top: -21px;
+  align-items: center;
+       background-color: #F6F6F6;
+       justify-content: center;
+       text-align: center;
+       
+   }
+main .block2 h1 
+{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 3000;
+    font-family: 'Roboto' bold;
+}
+main .block2 p
+{
+    font-size: 21px;
+    text-align: center;
+    color:gray;
+}
+ .btton
+ {background-image: linear-gradient(to top,#8660A5,#DBA4CB);
+    border:0;
+    padding:18px;
+    border-radius: 30px;
+    box-shadow: 2px 3px 2px 3px gainsboro;
+    color:white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+main .block3 h2
+{
+    margin-left: 40px;
+    margin-top: 40px;
+}
+main .block3 .function1
+{
+    border-radius: 18px;
+    background-color: #F6F6F6;
+    margin-top: 35px;
+    box-shadow: 5px 5px 5px 5px gray;
+   
+    align-items: center;
+    padding-left:30px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display: flex;
+    gap: 2rem;
+    width:70%;
+    margin-left: 13%;
+    margin-right: 15%;
+}
+main .block3 .function1 p
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+main .block3 .function1 i 
+{
+    font-size: 25px;
+    color:#7D7D7D;
+}
+.number
+{
+    width: 30px;
+    height:30px;
+    border-radius: 15px;
+    background-color: #7459A2;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    display: flex;
+    margin-left: -45px;
+}
+.shop
+{
+    color:#7459A2;
+}
+main .block4
+{
+    background-color: #F6F6F6;
+    padding-bottom: 100px;
+}
+main .block4 h2
+{
+    margin-left: 40px;
+    margin-top: 40px;
+    margin-top: 70px;
+    padding-top: 60px;
+}
+.restaurant
+{
+    width:82%;
+    margin-left: 9%;
+    height:300px;
+    margin-top: 25px;
+    border-radius: 15px;
+    background-color: white;
+}
+.hea
+{
+    float:right;
+    margin-top: -30px;
+    margin-right: 10px;
+    font-size: 30px;
+    color:white;
+    border:1px black solid;
+}
+.content
+{
+    margin-left: 20px;
+}
+.content h3
+{
+    font-weight: 2000;
+    font-size: 20px;
+    
+    
+}
+.content p
+{
+    
+    float:left;
+    margin-top: -15px;
+    font-size: 18px;
+}
+.images1
+{
+    background-image: url(../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+    height: 70%;
+}
+.images2
+{
+    background-image: url(../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+    height: 70%;
+}
+.images3
+{
+    background-image: url(../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+    height: 70%;
+}
+.images4
+{
+    background-image: url(../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+    height: 70%;
+}
+.new
+{
+    padding: 10px;
+    background-color: #9ED3C8;
+    font-weight: bold;
+    color:#159475;
+    width:70px;
+    align-items: center;
+    border-radius: 3px;
+    float:right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+footer
+{
+    background-color: #353435;
+    height:300px;
+}
+footer .logof
+{
+    color:white;
+}
+}
